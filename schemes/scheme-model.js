@@ -43,7 +43,7 @@ function remove(id) {
     .del()
 }
 
-module.exports {
+module.exports = {
     find,
     findById,
     findSteps,
